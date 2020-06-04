@@ -804,6 +804,7 @@ declare module "native-base" {
 			activeTabStyle?: RnViewStyleProp | Array<RnViewStyleProp>;
 			textStyle?: RnTextStyleProp;
 			activeTextStyle?: RnTextStyleProp;
+			disabled?: boolean;
 		}
 		interface TabHeading extends Testable {
 			tabStyle?: RnViewStyleProp | Array<RnViewStyleProp>;
